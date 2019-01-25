@@ -55,6 +55,8 @@ group :development do
   # Using Better errors & Binding of caller
   gem "better_errors"
   gem "binding_of_caller"
+  # Using License finder
+  gem 'license_finder'
 end
 
 group :test do
