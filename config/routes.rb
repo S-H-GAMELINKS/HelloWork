@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
   root 'web#index'
-  get 'web/index'
   get 'web/about'
   get 'web/contact'
   devise_for :companies
